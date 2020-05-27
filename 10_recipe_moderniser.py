@@ -248,5 +248,12 @@ for recipe_line in full_recipe:
 # Put updated ingredient in list
 
 # Output ingredient list
+
+print()
+print("***** {} ******".format(recipe_name))
+print()
+print("Source: {}".format(source))
+print()
+
 for item in modernised_recipe:
     print(item)
